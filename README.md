@@ -143,8 +143,8 @@ trainer.train()
 Because `LocalSandboxEnv` requires zero Docker daemon privileges, you can train a coding model on free Google Colab (T4 GPU) or Kaggle (P100 GPU):
 
 ```bash
-!git clone https://github.com/shobhitagnihotri69/ai-learning-projects.git
-%cd ai-learning-projects/02_ai-agents-from-scratch-to-production/swe_in_prod_vizuara_01/rl_coding_agent
+!git clone https://github.com/shobhitagnihotri69/RL-environment-for-coding-agent.git
+%cd RL-environment-for-coding-agent
 !pip install -r requirements.txt
 !python agent.py --group-size 4
 ```
